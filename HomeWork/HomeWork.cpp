@@ -24,14 +24,19 @@ void ChangeCh(char* _Arr, char _PrevCh, char _NextCh)
     // 1. 들어온 글자를 전부 '1'로 채워봐라.
     //  1-1. 함수 내부에서 하지 말고
     // for while도 생각하지 말고
-    char Arr[100] = "aaa bbb ccc";
+   
+    
+    //char Arr[100] = "aaa bbb ccc";
 
-    int len = strlen(Arr);
-    for (char i = 0; i < 15; i++)
-    {
-        Arr[0] = '1';
+    //int len = strlen(Arr);
+    //for (char i = 0; i < 15; i++)
+    //{
+    //    Arr[0] = '1';
 
-    }
+    //}
+
+
+
 
 
     return;
@@ -55,7 +60,7 @@ int main()
         Arr[0] = '1';
 
 
-       std:: cout << ChangeCh << endl;
+      // std:: cout << ChangeCh << endl;
       //  char Arr[] = { 1,2,3,4,5 };
        //// char len = sizeof(Arr[100]);
         //// std::cout << Arr;
