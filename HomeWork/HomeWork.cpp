@@ -25,7 +25,24 @@ void ChangeCh(char* _Arr, char _PrevCh, char _NextCh)
     //  1-1. 함수 내부에서 하지 말고
     // for while도 생각하지 말고
    
-    
+    int ChCount = 0;
+   
+    char Printch = _Arr[ChCount];
+    char Printchs = _PrevCh[&ChCount];
+    char Printchss= _NextCh[&ChCount];
+
+    putchar(Printch);
+    putchar(Printchs);
+    putchar(Printchss);
+
+    ++ChCount;
+
+
+
+
+
+
+
     //char Arr[100] = "aaa bbb ccc";
 
     //int len = strlen(Arr);
@@ -58,7 +75,7 @@ int main()
         char Arr[100] = "aaa bbb ccc";
 
         Arr[0] = '1';
-
+        
 
       // std:: cout << ChangeCh << endl;
       //  char Arr[] = { 1,2,3,4,5 };
@@ -69,7 +86,6 @@ int main()
         // 3이 나와야 합니다.
         // "aaa bbb ccc"; => "aaa bbb ddd";
         ChangeCh(Arr, 'c', 'd');
-
         int a = 0;
     }
 
