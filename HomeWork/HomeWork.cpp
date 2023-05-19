@@ -3,9 +3,58 @@
 
 #include <iostream>
 
+//int ChCount = 0;
+//while (Arr[ChCount])
+//{
+//    char PrintCh = Arr[ChCount];
+//    putchar(PrintCh);
+//    ++ChCount;
+//}
+
+int StringCount(char* _Arr)
+{
+    // 위쪽 예제코드를 참고하세요
+
+    return 0;
+}
+
+void ChangeCh(char* _Arr, char _PrevCh, char _NextCh)
+{
+    // 1. 들어온 글자를 전부 '1'로 채워봐라.
+    //  1-1. 함수 내부에서 하지 말고
+    // for while도 생각하지 말고
+
+
+    return;
+}
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    // 한글 들어가지 않습니다.
+    {
+        char Arr[100] = "aa";
+        // 5이 나와야 합니다.
+        // 글자수를 세는 함수입니다.
+        int Result = StringCount(nullptr);
+
+        int a = 0;
+    }
+
+    {
+        char Arr[100] = "aaa bbb ccc";
+
+        Arr[0] = '1';
+
+        // Arr[100] = "1111111111111";
+
+        // 3이 나와야 합니다.
+        // "aaa bbb ccc"; => "aaa bbb ddd";
+        ChangeCh(Arr, 'c', 'd');
+
+        int a = 0;
+    }
+
+
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
