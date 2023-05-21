@@ -1,4 +1,4 @@
-﻿// HomeWork.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
+﻿// HomeWork0518.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
 //
 
 #include <iostream>
@@ -24,12 +24,12 @@ void ChangeCh(char* _Arr, char _PrevCh, char _NextCh)
     // 1. 들어온 글자를 전부 '1'로 채워봐라.
     //  1-1. 함수 내부에서 하지 말고
     // for while도 생각하지 말고
-   
+
     int ChCount = 0;
-   
+
     char Printch = _Arr[ChCount];
     char Printchs = _PrevCh[&ChCount];
-    char Printchss= _NextCh[&ChCount];
+    char Printchss = _NextCh[&ChCount];
 
     putchar(Printch);
     putchar(Printchs);
