@@ -17,44 +17,18 @@ int ChCount(const char* const _string, char Ch)
         return -1;
     }
 
-    //int ChCount = 0;
-    //while (_string[ChCount])
-    //{
-    //    char Ch = _string[ChCount];
-
-    //    ++ChCount;
-    //}
-
-    ////int Count = 0;
-    ////int abcde[27] = { 0 };
-
-    ////for (int i = 0; i < _string[i]; i++)
-    ////{
-    ////    if (char Ch{ 'a' })
-    ////    {
-    ////        for (int j = 0; j < 26; j++)
-    ////        {
-    ////            abcde[j]++;
-    ////        }
-    ////    }
-    ////}
 
     int Count = 0;
-    int abcde[27] = { 0 };
 
-    for (int i = 0; i < _string[i]; i++)
+    int ChCount = 0;
+
+    while (_string[ChCount])
     {
-        for (int j = 0; j < 26; j++)
-        {
-            if (char Ch{ 'a' })
-            {
-                abcde[j]++;
-            }
-        }
+        char Value = _string[ChCount];
+
 
 
     }
-
 
 
 
