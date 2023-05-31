@@ -2,7 +2,10 @@
 //
 
 #include <iostream>
+<<<<<<< HEAD
+=======
 using namespace std;
+>>>>>>> a4a6c4618b44aa5573c042f905358f53bc48df80
 
 //int ChCount = 0;
 //while (_string[ChCount])
@@ -17,6 +20,22 @@ int ChCount(const char* const _string, char Ch)
         return -1;
     }
 
+<<<<<<< HEAD
+    int ChCount = 0;
+    while (_string[ChCount])
+    {
+        char Ch = _string[ChCount];
+
+        ++ChCount;
+    }
+
+    int Count = 0;
+
+    // for문을 돌리는건 당연한거야.
+
+    // Ch와 같은 문자가 몇개들어있는지 세어서 리턴해주는 함수
+    return 0;
+=======
 
     int Count = 0;
 
@@ -37,6 +56,7 @@ int ChCount(const char* const _string, char Ch)
     // Ch와 같은 문자가 몇개들어있는지 세어서 리턴해주는 함수
     //return 0;
     return Count;
+>>>>>>> a4a6c4618b44aa5573c042f905358f53bc48df80
 }
 
 void TrimDelete(char* _string)
@@ -70,7 +90,10 @@ void StrCopy(const char* const _Left, char* _Right)
 // 가장 어려운 숙제
 void NumberToString(int _Number, char* _Right)
 {
+<<<<<<< HEAD
+=======
     
+>>>>>>> a4a6c4618b44aa5573c042f905358f53bc48df80
     return;
 }
 
@@ -80,6 +103,14 @@ int main()
     // 4가 리턴되어야 합니다.
     // 문자열의 마지막에 들어가는 0은 글자로 치지 않습니다.
     {
+<<<<<<< HEAD
+        int Result = ChCount("ab aaa ccc ddd eee", 'a');
+
+        int Result2 = ChCount(nullptr, 'a');
+    }
+
+    {
+=======
         //1.a가몇개있는지 알아보는 함수를 만들어서 4를 리턴하게 만들어라 
         //a 가 4개있으니깐
         //chcount 안에서
@@ -95,6 +126,7 @@ int main()
     {
        // 2.들어갔다가 나오면 공백이 삭제되게 만들어라 
        //트림딜리트 함수를 사용해라 안에 내가 만들어야한다
+>>>>>>> a4a6c4618b44aa5573c042f905358f53bc48df80
         char Arr[256] = "aa  b  c dd ee";
 
         TrimDelete(Arr);
@@ -104,16 +136,23 @@ int main()
     }
 
     {
+<<<<<<< HEAD
+        // 8이 리턴되게 만들어라.
+=======
        // 3.자리수세기
        // 숫자 자릿수를 셀수있는 함수를 만들어라 디짓 함수 안에서
        // 8이 리턴되게 만들어라.
+>>>>>>> a4a6c4618b44aa5573c042f905358f53bc48df80
         int Result = DigitsCount(100);
 
         int a = 0;
     }
 
     {
+<<<<<<< HEAD
+=======
         //4.strcopy 함수를 통해서 문자를 그대로 나오게 만들어라
+>>>>>>> a4a6c4618b44aa5573c042f905358f53bc48df80
         char ArrCopyText[256] = {};
 
         StrCopy("aaaa bbb ccc", ArrCopyText);
@@ -122,7 +161,10 @@ int main()
     }
 
     {
+<<<<<<< HEAD
+=======
        // 5.가장어려운숙제
+>>>>>>> a4a6c4618b44aa5573c042f905358f53bc48df80
         char Result[256] = {};
 
         // Result = "312312";
